@@ -364,15 +364,17 @@ def StemWord(inputWord):
 def StemSentence(inputText):
 	"""
 	Stems a sentence and returnes a sentence with stemmed words
-	 
+	
+	Example: print StemSentence("I always forget this simple idiom for removing a string based on a set of words to remove. This particular example, given an array of stop words, remove them.")
+
 	TODO: check to make sure it runs optimally and uses the cpu properly
 	"""
 	myText = inputText.split()
+	outputText = ""
 	for i in myText:
-		print StemWord(i)
-	#print (StemWord(enumerate(myText))
+		outputText = outputText+ " " + StemWord(i) # TODO: rewrite it with join
+	return outputText
 	
-print StemSentence("I always forget this simple idiom for removing a string based on a set of words to remove. This particular example, given an array of stop words, remove them.")
 
 
 if __name__ == '__main__':
