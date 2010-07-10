@@ -1,4 +1,4 @@
-PyNLP is designed to perform simple NLP procuderes (examples include tokenizing, removing stop words, frequeny analysis,...)
+PyNLP is designed to perform simple NLP procedures (examples include tokenizing, removing stop words, frequency analysis,...)
 
 PyNLP is multi-core friendly. It will utilize all cores for its operations.
 
