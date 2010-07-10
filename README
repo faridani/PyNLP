@@ -1,6 +1,11 @@
 PyNLP is designed to perform simple NLP procedures (examples include tokenizing, removing stop words, frequency analysis,...)
 
-PyNLP is multi-core friendly. It will utilize all cores for its operations.
+
+Design Features:
+	- Light weight
+	- PyNLP is multi-core friendly. It will utilize all cores for its operations. 
+	- For each module unittests are provided as part of the source code. Unit tests cover most of the functions and modules
+
 
 
 Siamak Faridani
