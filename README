@@ -7,6 +7,10 @@ Design Features:
 	- For each module unittests are provided as part of the source code. Unit tests cover most of the functions and modules
 
 
+Ideas for the future:
+	- Combine Tokenize and Preprocess into one package
+
+
 
 Siamak Faridani
 UC Berkeley
