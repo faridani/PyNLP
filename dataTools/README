@@ -1,0 +1,14 @@
+
+This folder will contain scripts for importing and exporting different data types. 
+These types will include:
+
+	- Matlab .mat file
+	- csv files
+	- R dataframes
+	- Excel .xls files
+
+Siamak
+July 12, 2010
+
+
+
