@@ -375,7 +375,21 @@ def StemSentence(inputText):
 		outputText = outputText+ " " + StemWord(i) # TODO: rewrite it with join
 	return outputText
 	
-
+def Stem(inputValue):
+	"""
+	This is a more polymorphed version of the stemmer 
+	takes both str and list as it's input
+	
+	output type: list
+	"""
+	outputList = []
+	if type(inputValue)==type(str()):
+		outputList = StemSentence(inputValue).split()
+	if type(inputValue)==type(list()):
+		for item in inputValue:
+			outputList.append(StemWord(item))
+	
+	return outputList
 
 if __name__ == '__main__':
     p = PorterStemmer()
