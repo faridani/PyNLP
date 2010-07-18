@@ -2,7 +2,8 @@
 This folder will contain scripts for importing and exporting different data types. 
 These types will include:
 
-	- Matlab .mat file
+	- Matlab .mat file (done)
+	- Columnar data files 
 	- csv files
 	- R dataframes
 	- Excel .xls files
