@@ -10,6 +10,9 @@ Design Features:
 Ideas for the future:
 	- Combine Tokenize and Preprocess into one package
 
+Help:
+	- preprocess contains functions for tokenizing
+	- dataTools helps you import your data
 
 
 Please note: This project is still in very early stages. Please report bugs to faridani@berkeley.edu 
