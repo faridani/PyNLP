@@ -3,7 +3,14 @@
 # TODO: make it pythonic
 #       Blend it with the rest of the code
 
+import warnings
+warnings.filterwarnings("ignore")
 
 import scipy.io
 
-mat = scipy.io.loadmat('opinion_space_live2.mat')
+
+def loadmat(matfile):
+	#matfile should be without .mat	
+	Yback = scipy.io.loadmat(matfile+'.mat')
+	Y= Yback[matfile]
+	return Y
